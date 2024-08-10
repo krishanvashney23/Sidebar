@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/SideBar';
+import Dashboard from '@/components/Dashboard';
 
 const Home = () => {
   const callNow = () => {
@@ -15,6 +16,8 @@ const Home = () => {
         </div>
         <div class="col_parent_class col-xl-10 col-lg-9  second_child_width" >
             <Navbar/>
+            <Dashboard/>
+
         </div>
     </div>
     <div>

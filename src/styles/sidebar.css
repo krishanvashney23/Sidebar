@@ -58,6 +58,12 @@ body {
       background-color: #f1f1f1;
       color: #0b645c;
   }
+  .sidebar_flx {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 20px;
+}
   
   @keyframes slideDown {
       0% {

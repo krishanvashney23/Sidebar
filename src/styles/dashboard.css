@@ -1,0 +1,38 @@
+.back
+{
+    background-image: url(../../public/img/back2.png);
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yog_bot {
+    height: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    background: #ffffff;
+    border-style: none;
+    border-radius: 90px;
+    color: #8f0c1a;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.dash_flx
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top:30px;
+}
+.dash_flx2
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    color:white;
+    /* text-align: left; */
+}

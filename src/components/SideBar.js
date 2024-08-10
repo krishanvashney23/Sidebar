@@ -56,19 +56,19 @@ const Sidebar = () => {
         style={{ width: sidebarOpen ? (windowWidth > 990 ? '15.7%' : '80%') : '0' }}
       >
         <a href="javascript:void(0)" className="closebtn" onClick={toggleSidebar}>&times;</a>
-        <div className={"deskFlx"}>
-          <h2 style={{ color: '#0052CC' }}>Compliance</h2>
+        <div className={"desk-flx"}>
+          <h2 style={{ color: '#0052CC' }}>Birla</h2>
         </div>
 
         <div className="topMargin">
           <a href="#" className="pages"><i className="ri-home-4-line"></i> Dashboard</a>
           <a href="#" className="pages"><i className="ri-map-pin-line"></i> Dashboard</a>
-          <a className="sidebarFlx" onClick={toggleDropdown}>
-            <div className="menuTxt">
+          <a className="sidebar_flx"id="pages" onClick={toggleDropdown}>
+            <div className="menu_txt">
               <i className="ri-chat-settings-line"></i> Report Manager
             </div>
             <div className="maenuDroparrow">
-              <i className="ri-arrow-down-s-line"></i>
+              <i className="ri-arrow-down-s-line down_arow"></i>
             </div>
           </a>
           {dropdownOpen && (
@@ -82,9 +82,9 @@ const Sidebar = () => {
           )}
         </div>
         <a href="#" className="pages"><i class="ri-arrow-up-circle-fill"></i>Category</a>
-  <a href="#" className="pages"><i class="ri-team-line"></i> Report1</a>
-  <a href="#" className="pages"><i class="ri-notification-line"></i> Help</a>
-  <a href="#" className="pages"><i class="ri-settings-3-line"></i>Settings</a>
+        <a href="#" className="pages"><i class="ri-team-line"></i> Report1</a>
+        <a href="#" className="pages"><i class="ri-notification-line"></i> Help</a>
+        <a href="#" className="pages"><i class="ri-settings-3-line"></i>Settings</a>
       </div>
     </div>
   );

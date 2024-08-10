@@ -7,7 +7,7 @@ const Navbar = () => {
     setDropdownVisible(!dropdownVisible);
   };
   const callNow = () => {
-    window.location.href=`tel:${9632587410}`;
+    window.location.href = `tel:${9632587410}`;
   };
 
   useEffect(() => {
@@ -26,28 +26,27 @@ const Navbar = () => {
   return (
     <div className="container1">
       <form className="navbarForm" action="#">
-        <div className="searchContainer">
-          <input type="text" className="searchInput" placeholder="Search..." />
-          <i className="ri-search-line"></i>
-        </div>
+      <div className="search-container">
+    <input type="text" className="search-input" placeholder="Search..."/>
+    <i className="ri-search-line search-icon"></i>
+  </div>
       </form>
       <div className="icons">
-        <a className="qq">
-          <i className="ri-notification-line"></i>
-        </a>
-        <a className="qq">
-          <i className="ri-settings-4-line"></i>
-        </a>
-        <div className="dropdown">
-              <button onClick={callNow}>Call Now</button>
-          {dropdownVisible && (
-            <div className="dropdownContent" id="myDropdown">
-              <a href="#home">Profile</a>
-              <a href="#about">Chat</a>
-            </div>
-          )}
-        </div>
-      </div>
+    <a className="qq"><i className="ri-notification-line not_icon"></i></a>
+    <a className="qq"><i className="ri-settings-4-line not_icon"></i></a>
+<div className="dropdown">
+  <img src="img/user.jpg" onclick="myFunction()" className="img-fluid user1 drop1"/>
+  <div id="myDropdown" className="dropdown-content">
+      
+    <a href="#home">Profile</a>
+    <a href="#about">Chat</a>
+    <a href="#contact">Log Out</a>
+  </div>
+</div>
+
+    
+  </div>
+      
     </div>
   );
 };
