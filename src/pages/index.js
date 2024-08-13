@@ -1,29 +1,14 @@
 // src/pages/index.js
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Sidebar from '../components/SideBar';
-import Dashboard from '@/components/Dashboard';
+// import Navbar from '../components/Navbar';
+import Login from '../components/Login';
+// import Login from "@/components/login";
 
 const Home = () => {
-  const callNow = () => {
-    window.location.href=`tel:${9632587410}`;
-  };
   return (
-    <div class="container-fluid side-padd">
-    <div class="row main-parent">
-        <div class="col_parent_class col-xl-2 col-lg-3 first_child_width">
-            <Sidebar/>
-        </div>
-        <div class="col_parent_class col-xl-10 col-lg-9  second_child_width" >
-            <Navbar/>
-            <Dashboard/>
-
-        </div>
-    </div>
-    <div>
-      
-    </div>
-</div>
+    <>
+   <Login/>
+   </>
   );
 }
 

@@ -53,7 +53,7 @@ const Sidebar = () => {
       <div
         id="mySidenav"
         className="sidenav"
-        style={{ width: sidebarOpen ? (windowWidth > 990 ? '15.7%' : '80%') : '0' }}
+        style={{ width: sidebarOpen ? (windowWidth > 990 ? '16.7%' : '80%') : '0' }}
       >
         <a href="javascript:void(0)" className="closebtn" onClick={toggleSidebar}>&times;</a>
         <div className={"desk-flx"}>

@@ -4,17 +4,40 @@ const Dashboard = () => {
 
   return (
     <div>
-        <div className='container-fluid'>
-            <div className='row back dash_flx'>
-            <div className='col-sm-6'>
-                <p className='heading'>Projects</p>
+       <div class="container py-5">
+       
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card text-center p-4">
+                    <div class="card-title">18</div>
+                    <div class="card-subtitle">Projects</div>
+                    <small class="text-muted">2 Completed</small>
+                </div>
             </div>
-            <div className='col-sm-6 dash_flx2'>
-            <button className="yog_bot" >Free Consultation</button>
+            <div class="col-md-3">
+                <div class="card text-center p-4">
+                    <div class="card-title">132</div>
+                    <div class="card-subtitle">Active Task</div>
+                    <small class="text-muted">28 Completed</small>
+                </div>
             </div>
-
+            <div class="col-md-3">
+                <div class="card text-center p-4">
+                    <div class="card-title">12</div>
+                    <div class="card-subtitle">Teams</div>
+                    <small class="text-muted">1 Completed</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center p-4 productivity-card">
+                    <div class="card-title">76%</div>
+                    <div class="card-subtitle">Productivity</div>
+                    <small class="text-muted">5% Increase</small>
+                </div>
             </div>
         </div>
+    </div>
+
     </div>
   );
 };

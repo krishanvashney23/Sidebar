@@ -1,38 +1,34 @@
-.back
-{
-    background-image: url(../../public/img/back2.png);
-    height: 180px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+.card {
+    border-radius: 5px;
+    border-left: 4px solid #293740 !important;
+    background: white;
+    border: none;
+    box-shadow: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+    color: #000;
 }
-.yog_bot {
-    height: 45px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 10px;
-    background: #ffffff;
-    border-style: none;
-    border-radius: 90px;
-    color: #8f0c1a;
+.card-title {
+    font-size: 2rem;
     font-weight: bold;
-    letter-spacing: 1px;
 }
-.dash_flx
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top:30px;
+.card-subtitle {
+    font-size: 1.2rem;
+    color: #666;
 }
-.dash_flx2
-{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.productivity-card {
+    background-color: white; /* Light Green */
 }
-.heading {
-    font-size: 35px;
+.section-title {
+    font-size: 1.5rem;
     font-weight: bold;
-    color:white;
-    /* text-align: left; */
+    margin-bottom: 20px;
+    color: #FFFFFF; /* White */
+}
+.create-btn {
+    background-color: white; /* Light Purple */
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
 }

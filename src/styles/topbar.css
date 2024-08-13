@@ -13,6 +13,7 @@ a
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
+    background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   gap:30px;
   }
@@ -78,11 +79,11 @@ a
 .search-input {
   width: 100%;
   padding: 10px 20px;
-  border: none;
+  border: 1px solid black;
   border-radius: 50px;
   outline: none;
-  padding-left: 40px; /* Make space for the icon */
-  font-size:15px;
+  padding-left: 40px;
+  font-size: 15px;
   box-sizing: border-box;
 }
 
