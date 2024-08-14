@@ -35,9 +35,9 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="logoFlx">
-        <div className="logoFlx1">
-          <h2 style={{ color: '#0052CC' }}>Compliance</h2>
+      <div className="logo-flx">
+        <div className="logo-flx1">
+          <h2 style={{ color: '#0052CC' }}>Birla</h2>
         </div>
         <div id="hamburger" className="logoFlx2">
           <span
@@ -84,6 +84,7 @@ const Sidebar = () => {
         <a href="#" className="pages"><i class="ri-arrow-up-circle-fill"></i>Category</a>
         <a href="#" className="pages"><i class="ri-team-line"></i> Report1</a>
         <a href="#" className="pages"><i class="ri-notification-line"></i> Help</a>
+        <a href="#" className="pages"><i class="ri-notification-line"></i> Notification</a>
         <a href="#" className="pages"><i class="ri-settings-3-line"></i>Settings</a>
       </div>
     </div>

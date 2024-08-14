@@ -180,3 +180,19 @@ form .field input[type="submit"] {
 .move {
     left: 50% !important;
 }
+.password-field {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+}
+
+.eye-icon:hover {
+    color: #666;
+}

@@ -26,27 +26,27 @@ const Navbar = () => {
   return (
     <div className="container1">
       <form className="navbarForm" action="#">
-      <div className="search-container">
-    <input type="text" className="search-input" placeholder="Search..."/>
-    <i className="ri-search-line search-icon"></i>
-  </div>
+        <div className="search-container">
+          <input type="text" className="search-input" placeholder="Search..." />
+          <i className="ri-search-line search-icon"></i>
+        </div>
       </form>
       <div className="icons">
-    <a className="qq"><i className="ri-notification-line not_icon"></i></a>
-    <a className="qq"><i className="ri-settings-4-line not_icon"></i></a>
-<div className="dropdown">
-  <img src="img/user.jpg" onclick="myFunction()" className="img-fluid user1 drop1"/>
-  <div id="myDropdown" className="dropdown-content">
-      
-    <a href="#home">Profile</a>
-    <a href="#about">Chat</a>
-    <a href="#contact">Log Out</a>
-  </div>
-</div>
+        <a className="qq"><i className="ri-notification-line not_icon "></i></a>
+        <a className="qq"><i className="ri-settings-4-line not_icon "></i></a>
+        <div className="dropdown">
+          <img src="img/user.jpg" onclick="myFunction()" className="img-fluid user1 drop1" />
+          <div id="myDropdown" className="dropdown-content">
 
-    
-  </div>
-      
+            <a href="#home">Profile</a>
+            <a href="#about">Chat</a>
+            <a href="#contact">Log Out</a>
+          </div>
+        </div>
+
+
+      </div>
+
     </div>
   );
 };
