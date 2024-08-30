@@ -32,9 +32,11 @@ const Sidebar = () => {
 
   const toggleDropdown = () => {
     setDropdownOpen(prevState => !prevState);
+    console.log(dropdownOpen);
   };
 
   return (
+    <>
     <div>
       <div className="logo-flx">
         <div className="logo-flx1">
@@ -64,7 +66,10 @@ const Sidebar = () => {
         <div className="topMargin">
           <Link href="/dashboard" className="pages active"><i className="ri-home-4-line"></i> Dashboard</Link>
           <Link href="/user" className="pages"><i className="ri-map-pin-line"></i> Users</Link>
-          <a className="sidebar_flx"id="pages" onClick={toggleDropdown}>
+        <div className="top-marginn">
+          <a href="#" className="pages"><i className="ri-home-4-line"></i> Dashboard</a>
+          <a href="#" className="pages"><i className="ri-map-pin-line"></i> Dashboard</a>
+          <a className="sidebar_flx" id="pages" onClick={toggleDropdown}>
             <div className="menu_txt">
               <i className="ri-chat-settings-line"></i> Report Manager
             </div>
@@ -72,8 +77,8 @@ const Sidebar = () => {
               <i className="ri-arrow-down-s-line down_arow"></i>
             </div>
           </a>
-          {dropdownOpen && (
-            <div className="dropdownMenu">
+          {dropdownOpen &&(
+            <div className="dropdown-menu show">
               <a href="#" className="pages"><i className="ri-arrow-right-s-line"></i> Report 1</a>
               <a href="#" className="pages"><i className="ri-arrow-right-s-line"></i> Report (MRT)</a>
               <a href="#" className="pages"><i className="ri-arrow-right-s-line"></i> Report (OR)</a>
@@ -89,6 +94,8 @@ const Sidebar = () => {
         <a href="#" className="pages"><i class="ri-settings-3-line"></i>Settings</a>
       </div>
     </div>
+    </div>
+    </>
   );
 };
 

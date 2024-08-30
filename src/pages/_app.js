@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/styles/global.css';
 import '@/styles/sidebar.css';
-import '@/styles/topbar.css';
 import '@/styles/index.css';
 import '@/styles/dashboard.css';
 import '@/styles/reportone.css';
