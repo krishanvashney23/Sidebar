@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100%;
     place-items: center;
-    background-image: url("../../public/img/loginform-bck.jpg");
+    background-image: url("../../public/img/c1back3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,7 +86,7 @@
     top: 0;
     left: 0;
     z-index: 0;
-    background: #293740;
+    background: #0052cc;
     transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -159,7 +159,7 @@ a {
 .form-inner form .signup-link {
     color: #212121;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .form-inner form .pass-link a:hover,
@@ -168,7 +168,7 @@ a {
 }
 
 form .field input[type="submit"] {
-    background: #293740;
+    background: #0052cc;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -195,4 +195,8 @@ form .field input[type="submit"] {
 
 .eye-icon:hover {
     color: #666;
+}
+.new_color
+{
+    color:#0052cc;
 }

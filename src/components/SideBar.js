@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
 const Sidebar = () => {
@@ -57,12 +58,12 @@ const Sidebar = () => {
       >
         <a href="javascript:void(0)" className="closebtn" onClick={toggleSidebar}>&times;</a>
         <div className={"desk-flx"}>
-          <h2 style={{ color: '#0052CC' }}>Birla</h2>
+          <h2 className='admin-top'>Admin</h2>
         </div>
 
         <div className="topMargin">
-          <a href="#" className="pages"><i className="ri-home-4-line"></i> Dashboard</a>
-          <a href="#" className="pages"><i className="ri-map-pin-line"></i> Dashboard</a>
+          <Link href="/dashboard" className="pages active"><i className="ri-home-4-line"></i> Dashboard</Link>
+          <Link href="/user" className="pages"><i className="ri-map-pin-line"></i> Users</Link>
           <a className="sidebar_flx"id="pages" onClick={toggleDropdown}>
             <div className="menu_txt">
               <i className="ri-chat-settings-line"></i> Report Manager

@@ -1,5 +1,5 @@
 body {
-    font-family: "Moderustic", sans-serif !important;
+    font-family: "Inter", sans-serif!important;
   
   }
   
@@ -86,29 +86,39 @@ body {
           opacity: 0;
       }
   }
-  
+  .admin-top
+  {
+    color:white;
+    margin-bottom: 15px;
+  }
   .sidenav {
     height: 100vh;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
-    color: white;
+    background-color: #111c43;
+    color: #a3aed1;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 30px;
     width: 16.7%;
     scrollbar-width: none;
 }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 20px;
+.sidenav .active
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255 / 12%);
+    border-radius:7px;
+}
+.sidenav a {
+    padding: 12px 8px 12px 16px;
     text-decoration: none;
-    font-size: 16px;
-    color: white;
+    font-size: 14px;
+    /* color: white; */
     font-weight:400;
     letter-spacing: 0.4px;
+    color: #a3aed1;
     display: block;
     transition: 0.3s;
     margin-bottom:5px;
@@ -116,6 +126,12 @@ body {
     justify-content: flex-start;
     align-items: center;
     cursor:pointer;
+    margin:0px 10px 0px 10px;
+  }
+  .sidenav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.05);
+    letter-spacing:0.9px;
   }
   
   /* .sidenav a:hover {
