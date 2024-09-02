@@ -40,7 +40,7 @@ const Sidebar = () => {
     <div>
       <div className="logo-flx">
         <div className="logo-flx1">
-          <h2 style={{ color: '#0052CC' }}>Birla</h2>
+          <h2 style={{ color: '#0052CC' }}>Admin</h2>
         </div>
         <div id="hamburger" className="logoFlx2">
           <span
@@ -66,9 +66,14 @@ const Sidebar = () => {
         <div className="topMargin">
           <Link href="/dashboard" className="pages active"><i className="ri-home-4-line"></i> Dashboard</Link>
           <Link href="/user" className="pages"><i className="ri-map-pin-line"></i> Users</Link>
-        <div className="top-marginn">
-          <a href="#" className="pages"><i className="ri-home-4-line"></i> Dashboard</a>
-          <a href="#" className="pages"><i className="ri-map-pin-line"></i> Dashboard</a>
+          <a href="/creditTable" className="pages"><i className="ri-bank-card-line"></i> Credit</a>
+          <a href="/requestCredit" className="pages"><i className="ri-file-list-3-line"></i> Request For Credit</a>
+          <a href="/allReport" className="pages"><i class="ri-todo-line"></i>Report</a>
+          <a href="#" className="pages"><i class="ri-team-line"></i> Report1</a>
+          <a href="#" className="pages"><i class="ri-notification-line"></i> Help</a>
+          <a href="#" className="pages"><i class="ri-notification-line"></i> Notification</a>
+          <a href="#" className="pages"><i class="ri-settings-3-line"></i>Settings</a>
+        {/* <div className="top-marginn12">
           <a className="sidebar_flx" id="pages" onClick={toggleDropdown}>
             <div className="menu_txt">
               <i className="ri-chat-settings-line"></i> Report Manager
@@ -86,12 +91,7 @@ const Sidebar = () => {
               <a href="#" className="pages"><i className="ri-arrow-right-s-line"></i> Report (OR)</a>
             </div>
           )}
-        </div>
-        <a href="#" className="pages"><i class="ri-arrow-up-circle-fill"></i>Category</a>
-        <a href="#" className="pages"><i class="ri-team-line"></i> Report1</a>
-        <a href="#" className="pages"><i class="ri-notification-line"></i> Help</a>
-        <a href="#" className="pages"><i class="ri-notification-line"></i> Notification</a>
-        <a href="#" className="pages"><i class="ri-settings-3-line"></i>Settings</a>
+        </div> */}
       </div>
     </div>
     </div>

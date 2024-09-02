@@ -40,7 +40,7 @@ const Profile = () => {
       <div className='container-fluid'>
         <div className='row profile-my_flx_profile_up'>
           <div className='col-xl-2 col-lg-3 col-md-2  profile-pro1 profile-admin'>
-            <Link href="/dashboard"> <div className='profile-goBack'>
+            <Link href="/user"> <div className='profile-goBack'>
               <button className='profile-back'>
                 <i className="ri-arrow-left-s-line profile-lefticon"></i>
               </button>

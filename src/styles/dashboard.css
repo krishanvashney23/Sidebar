@@ -124,3 +124,11 @@
     padding-left: 2%;
     padding-right: 2%;
 }
+@media(max-width:900px)
+{
+    .head-dash {
+        margin-bottom: 35px;
+        margin-top: 8px;
+        font-size: 27px;
+    }
+}

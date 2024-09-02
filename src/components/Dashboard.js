@@ -1,6 +1,19 @@
 import { useState, useEffect } from 'react';
+import MultiSelect from '../components/MultiSelect';
 
 const Dashboard = () => {
+    const options = [
+        { value: 'option1', label: 'Option 1' },
+        { value: 'option2', label: 'Option 2' },
+        { value: 'option3', label: 'Option 3' },
+        // Add more options as needed
+    ];
+    const [selectedOptions, setSelectedOptions] = useState([]);
+
+    const handleChange = (selected) => {
+        setSelectedOptions(selected);
+    };
+
 
     return (
         <div>
@@ -20,9 +33,9 @@ const Dashboard = () => {
                                     8.72%</span>
                             </div>
                             <div>
-                               <div className='my_icon'>
-                               <i className="ri-service-line"></i>
-                               </div>
+                                <div className='my_icon'>
+                                    <i className="ri-service-line"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -39,9 +52,9 @@ const Dashboard = () => {
                                     8.72%</span>
                             </div>
                             <div>
-                               <div className='my_icon2'>
-                               <i className="ri-wallet-2-line"></i>
-                               </div>
+                                <div className='my_icon2'>
+                                    <i className="ri-wallet-2-line"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -58,9 +71,9 @@ const Dashboard = () => {
                                     8.72%</span>
                             </div>
                             <div>
-                               <div className='my_icon3'>
-                               <i className="ri-home-4-line"></i>
-                               </div>
+                                <div className='my_icon3'>
+                                    <i className="ri-home-4-line"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,14 +90,16 @@ const Dashboard = () => {
                                     8.72%</span>
                             </div>
                             <div>
-                               <div className='my_icon4'>
-                               <i className="ri-pin-distance-line"></i>
-                               </div>
+                                <div className='my_icon4'>
+                                    <i className="ri-pin-distance-line"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                  
+
                 </div>
+
+
             </div>
 
         </div>

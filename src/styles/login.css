@@ -200,3 +200,22 @@ form .field input[type="submit"] {
 {
     color:#0052cc;
 }
+
+@media(max-width:800px)
+{
+    .login-frm {
+        display: grid;
+        height: 90vh;
+        width: 100%;
+        place-items: center;
+        background-image: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}

@@ -5,6 +5,7 @@ import '@/styles/index.css';
 import '@/styles/dashboard.css';
 import '@/styles/reportone.css';
 import '@/styles/adduser.css';
+import '@/styles/allreport.css';
 import Toast from '../components/Toast';
 import Head from 'next/head';
 import BootstrapJSLoader from '@/components/BootstrapJsLoader';
