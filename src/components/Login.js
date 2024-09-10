@@ -77,7 +77,7 @@ const LoginSignupForm = () => {
                             </Link>
                             <div className="signup-link">
                                 Not a member?<br />
-                                <a href="#" onClick={handleSignupClick}>Signup Now</a>
+                                <a href="#" onClick={handleSignupClick} className='new_color'>Signup Now</a>
                             </div>
                         </form>
                         <form className="signup">
