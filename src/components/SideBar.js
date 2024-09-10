@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const Sidebar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -64,7 +65,7 @@ const Sidebar = () => {
 
         <div className="top-marginn">
           <a href="#" className="pages"><i className="ri-home-4-line"></i> Dashboard</a>
-          <a href="#" className="pages"><i className="ri-map-pin-line"></i> Dashboard</a>
+          <Link href="/about" className="pages"><i className="ri-map-pin-line"></i> About</Link>
           <a className="sidebar_flx" id="pages" onClick={toggleDropdown}>
             <div className="menu_txt">
               <i className="ri-chat-settings-line"></i> Report Manager
